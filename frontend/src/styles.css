@@ -1,13 +1,18 @@
-body {
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+  /* i added this  */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: #343a40;
 }
+
+/* footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+} */
