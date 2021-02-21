@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Base from "../core/Base";
-import { isAutheticated } from "../auth/helper";
+import { isAuthenticated } from "../auth/helper";
 import { Link } from "react-router-dom";
 import { createCategory } from "./helper/adminapicall";
 
@@ -9,7 +9,7 @@ const AddCategory = () => {
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
 
-  const { user, token } = isAutheticated();
+  const { user, token } = isAuthenticated();
 
   const goBack = () => (
     <div className="mt-5">
